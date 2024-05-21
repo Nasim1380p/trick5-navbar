@@ -1,5 +1,5 @@
 # trick5-navbar
-- [Demo Project](https://nasim1380p.github.io/trick5-navbar/)
+- [Demo Project](https://nasim1380p.github.io/trick5-navbar/) 👩‍💻
 
   
 ![navbar-p](https://github.com/Nasim1380p/trick5-navbar/assets/155636802/90f6de9c-6c32-4144-bdf7-964c49b45fea)
