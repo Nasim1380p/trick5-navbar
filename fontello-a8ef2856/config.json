@@ -1,0 +1,40 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "240979dd9fcf2e46250e66792edb8092",
+      "css": "facebook",
+      "code": 62208,
+      "src": "brandico"
+    },
+    {
+      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
+      "css": "twitter-bird",
+      "code": 62211,
+      "src": "brandico"
+    },
+    {
+      "uid": "c55fdf978f617992b43ee7cbaa6ef87e",
+      "css": "menu",
+      "code": 61448,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "8da3ac534210aae9c0f0e13804c1df97",
+      "css": "cancel",
+      "code": 59392,
+      "src": "websymbols"
+    },
+    {
+      "uid": "603ebbc4040323ef53ba1dc37de67717",
+      "css": "instagram",
+      "code": 61533,
+      "src": "mfglabs"
+    }
+  ]
+}

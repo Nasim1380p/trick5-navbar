@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/export.css">
+    <link rel="stylesheet" href="fontello-a8ef2856/css/fontello.css">
+</head>
+<body class="overflow-x-hidden">
+    <main class="w-full 2xl:container  flex mx-auto relative bg-[#001721] text-white transition-all duration-500">
+        <!-- div1 .........  -->
+      <div id="text" class="w-full h-full items-center justify-end bg-white absolute top-0 left-0 -z-10">
+        <ul class="text-right p-11 mt-44 bg-white text-black -z-10">
+            <li class="hover:text-[#65deff] text-3xl m-1">Home</li>
+            <li class="hover:text-[#65deff] text-3xl m-1">News</li>
+            <li class="hover:text-[#65deff] text-3xl m-1">Destination</li>
+            <li class="hover:text-[#65deff] text-3xl m-1">Blog</li>
+            <li class="hover:text-[#65deff] text-3xl m-1">Contact</li>
+        </ul>
+    </div>
+        <!-- div2...........  -->
+      <div class="w-full h-full  absolute left-0 top-0 *:bg-[#001721] *:text-white ">
+        <header class="row justify-center h-[130px] border-spacing-1 p-3">
+            <div class="row w-[90%] justify-between items-center">
+                <p class="text-2xl font-bold">TRAVEL</p>
+                <div class=" relative flex justify-center items-center">
+                   
+                    <i id="demo1" onclick="menuRight(this)" class="icon-menu text-4xl cursor-pointer absolute"></i>
+                    <i id="demo2" onclick="menuleft(this)" class=" icon-cancel text-4xl cursor-pointer absolute hidden"></i>
+                    
+                </div>
+                
+            </div>
+           </header>
+           <div class="row justify-center mt-16">
+             <div class="row w-[90%] justify-betweenr items-center">
+                <div class="row">
+                    <h2 class="font-bold text-3xl md:text-5xl xl:text-7xl w-full">NEVER STOP TO</h2>
+                    <h3 class="font-bold text-3xl md:text-4xl xl:text-6xl w-full">EXPLORING THE WORLD</h3>
+                    <p class="font-semibold md:text-xl md:w-[50%] mt-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                   <div class="w-full mt-10 mb-4"> <a class="w-[120px] justify-center items-center hover:bg-[#77e1ff] font-semibold flex h-[40px] bg-white text-black" href="">EXPLORE</a></div>
+                 </div>
+             </div>
+           </div>
+           <footer class="row justify-center mt-12">
+            <div class="w-[90%]">
+                <div class="pt-10 pb-10 row *:text-xl">
+                    <h4>contact me : </h4>
+                    <a  href="https://www.instagram.com/nasim_pirghollo_web?igsh=ZTM4ZDRiNzUwMw=="><i class=" icon-facebook  hover:text-[#77e1ff] transition-all duration-500"></i></a>
+                <a href="https://github.com/Nasim1380p"><i class=" icon-twitter-bird mx-3 hover:text-[#77e1ff] transition-all duration-500"></i></a>
+                <a href="https://www.linkedin.com/in/nasim-pirghollo-a783952a9/"><i class="icon-instagram mx-3 hover:text-[#77e1ff] transition-all duration-500"></i></a>
+                </div>
+            </div>
+           </footer>
+      </div>
+        
+    </main>
+    <script>
+        const _i1= document.getElementById('demo1')
+        const _i2= document.getElementById('demo2')
+        const x= document.getElementById('text')
+        const main= document.querySelectorAll('main')[0]
+        function menuRight(s){
+           
+           main.style.transform='translateX(-240px)'
+           s.style.display='none'
+           _i2.style.display='flex'
+           x.style.transform='translateX(240px)'
+        }
+        
+        function menuleft(s){
+            
+           main.style.transform='translateX(0px)'
+           s.style.display ='none'
+           _i1.style.display='flex'
+          
+        }
+    </script>
+</body>
+</html>
